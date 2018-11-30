@@ -81,3 +81,16 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 	2. Add more columns to posts table
 	3. Change db config and Run migration
 	4. Test it out :)
+
+8. Insert Posts table with dummy data using Database Seed & Faker
+
+	1. Create posts table seeder (php artisan make:seed PostsTableSeeder)
+	2. Create users table seeder (php artisan make:seed UsersTableSeeder)	
+	3. Open UsersTableSeeder.php and add 3 users/authors
+	4. Go to https://github.com/fzaninotto/Faker
+	5. Open PostsTableSeeder.php and add 10 dummy data	
+	   1. use Faker\Factory;
+	   2. Create Faker data
+	   3. In DatabaseSeeder, add UsersTableSeeder::class and PostsTableSeeder::class
+	   4. run db seed (php artisan db:seed) 
+	   5. Test it out :)	
