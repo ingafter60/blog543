@@ -44,3 +44,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 #5. Install New Laravel Project
 1. Create a new laravel project
 2. Create database 
+
+#6. Setup Application Layout
+
+1. Added ready asset files to public
+2. In views, create blog/index.blade.php and add ready made template
+3. Create a route to be able to access it
+4. Adjust the css link in the header, use asset helper function, href="{{ asset('css/bootstrap.min.css') }}" or can be like this, much simpler, href="/css/bootstrap.min.css"
