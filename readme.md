@@ -75,3 +75,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
       2. 6.2 Move comments to inc
       3. 6.3 In index and show page, change @include('layouts.sidebar') to  @include('inc.sidebar')
       4. 6.4 Test it out :)
+
+7. Create Posts table using Database Migration
+	1. Create model Post with migration flag
+	2. Add more columns to posts table
+	3. Change db config and Run migration
+	4. Test it out :)
