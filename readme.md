@@ -51,3 +51,22 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 2. In views, create blog/index.blade.php and add ready made template
 3. Create a route to be able to access it
 4. Adjust the css link in the header, use asset helper function, href="{{ asset('css/bootstrap.min.css') }}" or can be like this, much simpler, href="/css/bootstrap.min.css"
+5. In views, create layouts/main.blade.php 
+   1. 5.1. Modify the index to main file by moving all codes that will be shown in each page (header, and footer) + use @yield('main-content')
+   2. 5.2 extends the layouts to index, add section of main-content to index as well
+   3. 5.3 test it out :)
+6. In layouts, create a new page: sidebar.blade.php
+   1. Move the sidebar codes from the index to sidebar.blade.php
+   2. Include sidebar to index
+   3. Test it out :)
+   4. In views/blog, create show.blade.php
+      1. 4.1 Copy index codes to show page
+      2. 4.2 In show page, replace the 'col-md-8' by 'col-md-8' from asset post.html file   
+      3. 4.3 Modify the links of images, css and js if any
+      4. 4.4 Define a new route for show page with uri: blog/show
+   5. Show page
+      1. 5.1 In sidebar, disable search and widget
+      2. 5.2 In blog, create a file: comments.blade.php
+      3. 5.3 Move comments form show to comments  
+      4. 5.4 for now, do not include comments in show page
+      5. 5.5 Test it out :) 
