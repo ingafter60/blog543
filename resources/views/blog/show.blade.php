@@ -60,7 +60,7 @@
             </div>
 
             <!-- sidebar -->
-            @include('layouts.sidebar')
+            @include('inc.sidebar')
         </div>
     </div>
 @endsection

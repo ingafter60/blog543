@@ -70,3 +70,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
       3. 5.3 Move comments form show to comments  
       4. 5.4 for now, do not include comments in show page
       5. 5.5 Test it out :) 
+   6. Create inc folder
+      1. 6.1 Move sidebar to inc
+      2. 6.2 Move comments to inc
+      3. 6.3 In index and show page, change @include('layouts.sidebar') to  @include('inc.sidebar')
+      4. 6.4 Test it out :)
