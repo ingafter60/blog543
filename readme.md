@@ -94,3 +94,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 	   3. In DatabaseSeeder, add UsersTableSeeder::class and PostsTableSeeder::class
 	   4. run db seed (php artisan db:seed) 
 	   5. Test it out :)	
+
+9. Display all posts - Part 1
+
+	1. Create BlogsController get all post
+   2. In blog/index, loop all posts and use conditionl if the post has no image
+   3. In model Post, setup the url for image
+   4. Test it out :)
+   5. NOTE: I was not able to display the image due to file extentions in the db and img folder is changed.
+
